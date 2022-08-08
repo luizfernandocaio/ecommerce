@@ -1,0 +1,872 @@
+07-18-2022 @ 16:47:20 - [process_payment]: customer being redirected to Mercado Pago.
+07-18-2022 @ 16:47:20 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-14",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 11,
+            "title": "teste x 1",
+            "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+            "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 20,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "a",
+        "surname": "a",
+        "email": "gudserv@gmail.com",
+        "phone": {
+            "number": "55 51 999-5151"
+        },
+        "address": {
+            "zip_code": "01153-000",
+            "street_name": "A \/ sp SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt",
+        "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_MkxDOgVbrQ4kt&order_id=14&redirect&_wpnonce=d646c0da2f",
+        "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.7.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "463417123",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no"
+        },
+        "ticket_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "date_expiration": 3,
+            "coupon_mode": "no",
+            "stock_reduce_mode": "no"
+        },
+        "pix_settings": {
+            "enabled": "no"
+        },
+        "seller_website": "https:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "01153-000",
+            "street_name": "A",
+            "city_name": "sp",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "gudserv@gmail.com",
+            "user_registration_date": "2022-07-18T19:09:03.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+07-18-2022 @ 16:47:21 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_MkxDOgVbrQ4kt&order_id=14&redirect&_wpnonce=d646c0da2f",
+            "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt",
+            "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt"
+        },
+        "binary_mode": false,
+        "client_id": "6905391784609908",
+        "collector_id": 463417123,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-07-18T15:47:22.316-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-14",
+        "id": "463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "11",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+                "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+                "title": "teste x 1",
+                "quantity": 1,
+                "unit_price": 20
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "sp",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "A",
+                "zip_code": "01153-000"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "463417123",
+            "custom_settings": {
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "no"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.7.0",
+            "seller_website": "https:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": {
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "date_expiration": 3,
+                "enabled": "no",
+                "stock_reduce_mode": "no"
+            },
+            "user": {
+                "registered_user": "yes",
+                "user_email": "gudserv@gmail.com",
+                "user_registration_date": "2022-07-18T19:09:03.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "55 51 999-5151"
+            },
+            "address": {
+                "zip_code": "01153-000",
+                "street_name": "A  sp SP BR",
+                "street_number": null
+            },
+            "email": "gudserv@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "a",
+            "surname": "a",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+07-18-2022 @ 16:47:21 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_MkxDOgVbrQ4kt&order_id=14&redirect&_wpnonce=d646c0da2f",
+            "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt",
+            "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=14&key=wc_order_MkxDOgVbrQ4kt"
+        },
+        "binary_mode": false,
+        "client_id": "6905391784609908",
+        "collector_id": 463417123,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-07-18T15:47:22.316-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-14",
+        "id": "463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "11",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+                "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+                "title": "teste x 1",
+                "quantity": 1,
+                "unit_price": 20
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "sp",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "A",
+                "zip_code": "01153-000"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "463417123",
+            "custom_settings": {
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "no"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.7.0",
+            "seller_website": "https:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": {
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "date_expiration": 3,
+                "enabled": "no",
+                "stock_reduce_mode": "no"
+            },
+            "user": {
+                "registered_user": "yes",
+                "user_email": "gudserv@gmail.com",
+                "user_registration_date": "2022-07-18T19:09:03.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "55 51 999-5151"
+            },
+            "address": {
+                "zip_code": "01153-000",
+                "street_name": "A  sp SP BR",
+                "street_number": null
+            },
+            "email": "gudserv@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "a",
+            "surname": "a",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5d0f156e-6059-4c5e-aa76-e9aed133df39",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+07-18-2022 @ 16:49:44 - [process_payment]: customer being redirected to Mercado Pago.
+07-18-2022 @ 16:49:44 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-15",
+    "notification_url": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 11,
+            "title": "teste x 1",
+            "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+            "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 20,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "a",
+        "surname": "a",
+        "email": "alala@lala.com",
+        "phone": {
+            "number": "51 99855555"
+        },
+        "address": {
+            "zip_code": "95555-000",
+            "street_name": "SP \/ SP RS BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo",
+        "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_0RdBHhpiRfMmo&order_id=15&redirect&_wpnonce=4f1fa53b64",
+        "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.7.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "463417123",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_visa": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no"
+        },
+        "ticket_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "date_expiration": 3,
+            "coupon_mode": "no",
+            "stock_reduce_mode": "no"
+        },
+        "pix_settings": {
+            "enabled": "no"
+        },
+        "seller_website": "https:\/\/localhost\/wordpress",
+        "billing_address": {
+            "zip_code": "95555-000",
+            "street_name": "SP",
+            "city_name": "SP",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+07-18-2022 @ 16:49:45 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_0RdBHhpiRfMmo&order_id=15&redirect&_wpnonce=4f1fa53b64",
+            "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo",
+            "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo"
+        },
+        "binary_mode": false,
+        "client_id": "6905391784609908",
+        "collector_id": 463417123,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-07-18T15:49:46.282-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-15",
+        "id": "463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "11",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+                "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+                "title": "teste x 1",
+                "quantity": 1,
+                "unit_price": 20
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "SP",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "SP",
+                "zip_code": "95555-000"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "463417123",
+            "custom_settings": {
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "no"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.7.0",
+            "seller_website": "https:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": {
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "date_expiration": 3,
+                "enabled": "no",
+                "stock_reduce_mode": "no"
+            },
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "51 99855555"
+            },
+            "address": {
+                "zip_code": "95555-000",
+                "street_name": "SP  SP RS BR",
+                "street_number": null
+            },
+            "email": "alala@lala.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "a",
+            "surname": "a",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+07-18-2022 @ 16:49:45 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/localhost\/wordpress\/?page_id=7&cancel_order=true&order=wc_order_0RdBHhpiRfMmo&order_id=15&redirect&_wpnonce=4f1fa53b64",
+            "pending": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo",
+            "success": "https:\/\/localhost\/wordpress\/?page_id=8&order-received=15&key=wc_order_0RdBHhpiRfMmo"
+        },
+        "binary_mode": false,
+        "client_id": "6905391784609908",
+        "collector_id": 463417123,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-07-18T15:49:46.282-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-15",
+        "id": "463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "11",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "img-classalignnone-size-full-wp-image-12-srchttpslocalhostwordpresswp-contentuploads202207ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp-altteste-width598-height611",
+                "picture_url": "https:\/\/localhost\/wordpress\/wp-content\/uploads\/2022\/07\/ventilador_para_aviario_qla85gr_t6_inox_756_1_20170321163346.webp",
+                "title": "teste x 1",
+                "quantity": 1,
+                "unit_price": 20
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "SP",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "SP",
+                "zip_code": "95555-000"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "463417123",
+            "custom_settings": {
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "no"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.7.0",
+            "seller_website": "https:\/\/localhost\/wordpress",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": true,
+            "ticket_settings": {
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "date_expiration": 3,
+                "enabled": "no",
+                "stock_reduce_mode": "no"
+            },
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "51 99855555"
+            },
+            "address": {
+                "zip_code": "95555-000",
+                "street_name": "SP  SP RS BR",
+                "street_number": null
+            },
+            "email": "alala@lala.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "a",
+            "surname": "a",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=463417123-5f3db250-5088-401b-a6ed-8ea2ba9673a2",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Mercado Pago",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
